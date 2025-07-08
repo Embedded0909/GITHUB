@@ -9,9 +9,22 @@ Get config
 git config --global user.name
 git config --global user.email
 ```
-## Phần 02 Creating repo
+## Phần 02 Creating repo/ Cloning repo
 ```cpp
 git init
+```
+```cpp
+git remote add origin git_url
+git remote -v
+```
+```cpp
+git clone git_url
+```
+```cpp
+git pull origin master
+```
+```cpp
+git push origin master
 ```
 ## Phần 03 Staging
 Check status
@@ -48,7 +61,10 @@ To commit
 git commit -m "comment"
 ```
 ## Phần 05 Git stash
-
+```cpp
+#. Đang code dở file main.cpp
+#. Cần chuyển sang nhánh khác để sửa bug gấp
+```
 ## Phần 06 Git ignore
 ## Phần 07 Reverting & Reset
 ## Phần 08 Branch
