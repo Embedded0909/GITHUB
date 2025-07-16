@@ -65,6 +65,30 @@ git commit -m "comment"
 #. Đang code dở file main.cpp
 #. Cần chuyển sang nhánh khác để sửa bug gấp
 ```
+Lưu vào stash
+```cpp
+git stash save -m "comment"
+```
+Lấy ra toàn bộ stash
+```cpp
+git stash list
+```
+Khôi phục stash gần nhất và xóa khỏi danh sách
+```cpp
+git stash pop
+```
+Khôi phục stash gần nhất nhưng không xóa khỏi danh sách
+```cpp
+git stash apply
+```
+Xóa một stash
+```cpp
+git stash drop stash@{0}
+```
+Xóa mọi stash
+```
+Xóa tất cả stash
+```
 ## Phần 06 Git ignore
 ## Phần 07 Reverting & Reset
 ## Phần 08 Branch
