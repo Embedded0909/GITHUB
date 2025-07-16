@@ -90,6 +90,12 @@ Xóa mọi stash
 Xóa tất cả stash
 ```
 ## Phần 06 Git ignore
+```
+Ex:
+.env
+/Folder
+*.txt
+```
 ## Phần 07 Reverting & Reset
 ## Phần 08 Branch
 ## Phần 09 Merging branch
