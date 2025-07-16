@@ -18,7 +18,7 @@ uint8_t status = 0x00;
 
 
 
-#define SET_
+#define SET_FLAG_TEST
 
 
 int main(){
